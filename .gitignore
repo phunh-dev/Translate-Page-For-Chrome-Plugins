@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# WXT / Vite build output
+.output/
+.wxt/
+dist/
+build/
+stats.html
+stats-*.json
+*.tsbuildinfo
+
+# Packaged extensions & signing keys (never commit private keys)
+*.zip
+*.crx
+*.xpi
+*.pem
+web-ext-artifacts/
+
+# Environment & local dev config
+.env
+.env.*
+!.env.example
+web-ext.config.ts
+
+# Tests & coverage
+coverage/
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# Logs & caches
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.cache/
+.temp/
+.tmp/
+
+# Editors / IDE
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

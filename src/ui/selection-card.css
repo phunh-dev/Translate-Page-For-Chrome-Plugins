@@ -1,0 +1,169 @@
+.card {
+  position: fixed;
+  width: min(380px, calc(100vw - 16px));
+  max-height: min(460px, calc(100vh - 16px));
+  display: flex;
+  flex-direction: column;
+  background: var(--tpc-bg);
+  color: var(--tpc-text);
+  border: 1px solid var(--tpc-border);
+  border-radius: var(--tpc-radius);
+  box-shadow: var(--tpc-shadow);
+  font-family: var(--tpc-font);
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: hidden;
+  animation: tpc-pop 0.14s ease-out;
+}
+
+@keyframes tpc-pop {
+  from {
+    opacity: 0;
+    transform: translateY(4px) scale(0.98);
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 8px 8px 12px;
+  border-bottom: 1px solid var(--tpc-border);
+}
+
+.langs {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+  color: var(--tpc-muted);
+  font-size: 12px;
+}
+
+.source {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 110px;
+}
+
+select {
+  appearance: none;
+  font: inherit;
+  font-size: 12px;
+  color: var(--tpc-text);
+  background: var(--tpc-surface)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%236b7088' stroke-width='3'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")
+    no-repeat right 8px center;
+  border: 1px solid var(--tpc-border);
+  border-radius: 8px;
+  padding: 4px 24px 4px 8px;
+  min-width: 0;
+  max-width: 150px;
+  cursor: pointer;
+}
+
+.body {
+  padding: 12px 14px;
+  overflow: auto;
+  flex: 1;
+}
+
+.original {
+  color: var(--tpc-muted);
+  font-size: 12.5px;
+  margin: 0 0 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+
+.result {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 15px;
+  user-select: text;
+}
+
+.result[dir="rtl"] {
+  text-align: right;
+}
+
+.error {
+  color: var(--tpc-danger);
+  font-size: 13px;
+}
+
+.hint {
+  margin-top: 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--tpc-accent-soft);
+  color: var(--tpc-text);
+  font-size: 12px;
+}
+
+.hint a {
+  color: var(--tpc-accent);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.skeleton {
+  display: grid;
+  gap: 8px;
+}
+
+.skeleton span {
+  display: block;
+  height: 12px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--tpc-surface) 25%, var(--tpc-border) 50%, var(--tpc-surface) 75%);
+  background-size: 200% 100%;
+  animation: tpc-shimmer 1.1s linear infinite;
+}
+
+.skeleton span:nth-child(2) {
+  width: 85%;
+}
+
+.skeleton span:nth-child(3) {
+  width: 60%;
+}
+
+@keyframes tpc-shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 8px 6px 12px;
+  border-top: 1px solid var(--tpc-border);
+  background: var(--tpc-surface);
+}
+
+.footer .spacer {
+  flex: 1;
+}
+
+.badge {
+  font-size: 11px;
+  color: var(--tpc-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: auto;
+}
+
+.footer select {
+  background-color: var(--tpc-bg);
+  max-width: 140px;
+}

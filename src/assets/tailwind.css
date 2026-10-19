@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --color-brand-50: #f1f0ff;
+  --color-brand-100: #e5e2ff;
+  --color-brand-200: #cdc7ff;
+  --color-brand-300: #aca1ff;
+  --color-brand-400: #8b7dff;
+  --color-brand-500: #6d5cf6;
+  --color-brand-600: #5b4cf0;
+  --color-brand-700: #4b3bd6;
+  --color-brand-800: #3d31ad;
+  --color-brand-900: #332c88;
+  --color-ink-50: #f6f7fb;
+  --color-ink-100: #eceef6;
+  --color-ink-200: #dfe2ee;
+  --color-ink-300: #c4c8da;
+  --color-ink-400: #9aa0bb;
+  --color-ink-500: #6b7088;
+  --color-ink-600: #50556d;
+  --color-ink-700: #3a3e53;
+  --color-ink-800: #262838;
+  --color-ink-850: #1f2130;
+  --color-ink-900: #1a1b26;
+  --color-ink-950: #121320;
+}
+
+@layer base {
+  :root {
+    color-scheme: light dark;
+  }
+
+  body {
+    @apply bg-white text-ink-900 antialiased dark:bg-ink-900 dark:text-ink-50;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@utility scrollbar-thin {
+  scrollbar-width: thin;
+}

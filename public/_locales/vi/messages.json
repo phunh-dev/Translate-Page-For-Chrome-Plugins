@@ -1,0 +1,419 @@
+{
+  "extName": {
+    "message": "Translate Page – Dịch trang miễn phí cho Chromium"
+  },
+  "extShortName": {
+    "message": "Translate Page"
+  },
+  "extDescription": {
+    "message": "Dịch toàn trang hoặc đoạn văn bôi đen sang hơn 240 ngôn ngữ, miễn phí, có phong cách theo lĩnh vực (công nghệ, y khoa, báo chí, ẩm thực…)."
+  },
+  "extTagline": {
+    "message": "Dịch trang & đoạn văn miễn phí"
+  },
+  "actionTitle": {
+    "message": "Dịch trang này"
+  },
+  "cmdTranslatePage": {
+    "message": "Dịch trang / hiện bản gốc"
+  },
+  "cmdTranslateSelection": {
+    "message": "Dịch đoạn đã chọn"
+  },
+  "menuTranslatePage": {
+    "message": "Dịch trang này / hiện bản gốc"
+  },
+  "menuTranslateSelection": {
+    "message": "Dịch đoạn đã chọn"
+  },
+  "styleGeneral": {
+    "message": "Thông dụng"
+  },
+  "styleGeneralDesc": {
+    "message": "Dịch nhanh, sát nghĩa bằng engine miễn phí. Không cần AI."
+  },
+  "styleTechnology": {
+    "message": "Công nghệ"
+  },
+  "styleEngineering": {
+    "message": "Kỹ thuật"
+  },
+  "styleScience": {
+    "message": "Khoa học"
+  },
+  "styleMedical": {
+    "message": "Y khoa"
+  },
+  "styleLegal": {
+    "message": "Pháp lý"
+  },
+  "styleFinance": {
+    "message": "Tài chính"
+  },
+  "styleJournalism": {
+    "message": "Báo chí"
+  },
+  "styleFood": {
+    "message": "Ẩm thực"
+  },
+  "styleMagazine": {
+    "message": "Tạp chí"
+  },
+  "styleAcademic": {
+    "message": "Học thuật"
+  },
+  "styleMarketing": {
+    "message": "Marketing"
+  },
+  "styleGaming": {
+    "message": "Game"
+  },
+  "styleLiterature": {
+    "message": "Văn học"
+  },
+  "styleCasual": {
+    "message": "Đời thường"
+  },
+  "targetLanguage": {
+    "message": "Ngôn ngữ đích"
+  },
+  "translateTo": {
+    "message": "Dịch sang"
+  },
+  "recentLanguages": {
+    "message": "Gần đây"
+  },
+  "allLanguages": {
+    "message": "Tất cả ngôn ngữ"
+  },
+  "searchLanguage": {
+    "message": "Tìm ngôn ngữ…"
+  },
+  "noResults": {
+    "message": "Không tìm thấy ngôn ngữ"
+  },
+  "translationStyle": {
+    "message": "Phong cách dịch"
+  },
+  "copy": {
+    "message": "Sao chép"
+  },
+  "speak": {
+    "message": "Nghe"
+  },
+  "detecting": {
+    "message": "Đang nhận diện…"
+  },
+  "autoDetect": {
+    "message": "Tự nhận diện"
+  },
+  "openSettings": {
+    "message": "Cài đặt"
+  },
+  "settings": {
+    "message": "Cài đặt"
+  },
+  "close": {
+    "message": "Đóng"
+  },
+  "retry": {
+    "message": "Thử lại"
+  },
+  "translationFailed": {
+    "message": "Dịch thất bại."
+  },
+  "styleNeedsAi": {
+    "message": "Phong cách dịch cần engine AI. Đã dùng bản dịch thông thường thay thế."
+  },
+  "setupAi": {
+    "message": "Cài đặt AI miễn phí"
+  },
+  "statusTranslating": {
+    "message": "Đang dịch… $1%"
+  },
+  "statusTranslated": {
+    "message": "Đã dịch sang $1"
+  },
+  "statusOriginal": {
+    "message": "Đang hiện bản gốc"
+  },
+  "statusError": {
+    "message": "Dịch thất bại"
+  },
+  "viaProvider": {
+    "message": "qua $1"
+  },
+  "styleFallbackShort": {
+    "message": "Chưa có AI – dịch thông thường"
+  },
+  "partialError": {
+    "message": "Một số đoạn chưa dịch được"
+  },
+  "showOriginal": {
+    "message": "Hiện bản gốc"
+  },
+  "showTranslation": {
+    "message": "Hiện bản dịch"
+  },
+  "bilingualMode": {
+    "message": "Song ngữ"
+  },
+  "bilingualModeDesc": {
+    "message": "Hiện bản dịch ngay dưới bản gốc"
+  },
+  "hideToolbar": {
+    "message": "Ẩn thanh công cụ"
+  },
+  "translatePage": {
+    "message": "Dịch trang này"
+  },
+  "translatingPercent": {
+    "message": "Đang dịch… $1%"
+  },
+  "cannotTranslatePage": {
+    "message": "Không thể dịch trang này (trang của trình duyệt hoặc cửa hàng)."
+  },
+  "alwaysTranslateSite": {
+    "message": "Luôn dịch $1"
+  },
+  "shortcutPage": {
+    "message": "dịch trang"
+  },
+  "shortcutSelection": {
+    "message": "dịch đoạn chọn"
+  },
+  "sectionGeneral": {
+    "message": "Chung"
+  },
+  "sectionGeneralDesc": {
+    "message": "Mặc định cho popup, thẻ dịch đoạn chọn và phím tắt."
+  },
+  "defaultTargetLanguage": {
+    "message": "Ngôn ngữ đích mặc định"
+  },
+  "defaultStyle": {
+    "message": "Phong cách dịch mặc định"
+  },
+  "displayMode": {
+    "message": "Cách hiển thị trang"
+  },
+  "modeReplace": {
+    "message": "Thay thế"
+  },
+  "modeReplaceDesc": {
+    "message": "Thay văn bản gốc bằng bản dịch"
+  },
+  "selectionIcon": {
+    "message": "Hiện nút dịch khi bôi đen"
+  },
+  "selectionIconDesc": {
+    "message": "Một nút nhỏ xuất hiện cạnh đoạn văn được bôi đen."
+  },
+  "skipSameLanguage": {
+    "message": "Bỏ qua trang đã ở ngôn ngữ của tôi"
+  },
+  "skipSameLanguageDesc": {
+    "message": "Áp dụng cho các trang được đặt “luôn dịch”."
+  },
+  "sectionEngines": {
+    "message": "Engine dịch"
+  },
+  "sectionEnginesDesc": {
+    "message": "Mọi tính năng dùng được miễn phí ngay. Thêm một engine AI miễn phí để dùng phong cách dịch."
+  },
+  "standardEngine": {
+    "message": "Engine tiêu chuẩn (không cần key)"
+  },
+  "standardEngineHint": {
+    "message": "Dùng cho phong cách Thông dụng; engine còn lại là dự phòng tự động."
+  },
+  "engineGoogleDesc": {
+    "message": "Nhanh, hơn 240 ngôn ngữ. Khuyên dùng."
+  },
+  "engineBingDesc": {
+    "message": "Microsoft Translator, khoảng 130 ngôn ngữ."
+  },
+  "aiEngine": {
+    "message": "Engine AI cho phong cách dịch"
+  },
+  "aiEngineHint": {
+    "message": "Tự động thử Chrome AI, rồi Gemini, rồi endpoint tương thích OpenAI."
+  },
+  "aiEngineAuto": {
+    "message": "Tự động (khuyên dùng)"
+  },
+  "openaiCompatible": {
+    "message": "Tương thích OpenAI (Groq, OpenRouter, Ollama…)"
+  },
+  "free": {
+    "message": "Miễn phí"
+  },
+  "private": {
+    "message": "Chạy trên máy"
+  },
+  "freeTier": {
+    "message": "Gói miễn phí"
+  },
+  "chromeAiDesc": {
+    "message": "Chạy Gemini Nano ngay trên máy: miễn phí, riêng tư, dùng được offline. Cần Chrome mới trên thiết bị được hỗ trợ; trình duyệt Chromium khác sẽ báo “không hỗ trợ”."
+  },
+  "aiStatus_available": {
+    "message": "Sẵn sàng"
+  },
+  "aiStatus_downloadable": {
+    "message": "Cần tải về"
+  },
+  "aiStatus_downloading": {
+    "message": "Đang tải"
+  },
+  "aiStatus_unavailable": {
+    "message": "Không khả dụng trên máy này"
+  },
+  "aiStatus_unsupported": {
+    "message": "Trình duyệt không hỗ trợ"
+  },
+  "downloadModel": {
+    "message": "Tải mô hình (Tiếng Anh → $1)"
+  },
+  "downloadingModel": {
+    "message": "Đang tải… $1%"
+  },
+  "configured": {
+    "message": "Đã cấu hình"
+  },
+  "notConfigured": {
+    "message": "Chưa cấu hình"
+  },
+  "geminiDesc": {
+    "message": "Google AI Studio cấp API key miễn phí với hạn mức hằng ngày khá rộng."
+  },
+  "getFreeKey": {
+    "message": "Lấy key miễn phí"
+  },
+  "apiKey": {
+    "message": "API key"
+  },
+  "apiKeyOptional": {
+    "message": "API key (tuỳ chọn)"
+  },
+  "showHide": {
+    "message": "Hiện / ẩn"
+  },
+  "model": {
+    "message": "Model"
+  },
+  "loadModels": {
+    "message": "Tải danh sách"
+  },
+  "testConnection": {
+    "message": "Kiểm tra"
+  },
+  "testing": {
+    "message": "Đang kiểm tra…"
+  },
+  "openaiDesc": {
+    "message": "Bất kỳ endpoint /chat/completions nào: Groq và OpenRouter có model miễn phí, Ollama và LM Studio chạy trên máy."
+  },
+  "baseUrl": {
+    "message": "Base URL"
+  },
+  "sectionStyles": {
+    "message": "Phong cách dịch"
+  },
+  "sectionStylesDesc": {
+    "message": "Mỗi phong cách hướng dẫn AI cách viết cho một lĩnh vực. Bấm vào thẻ để xem hướng dẫn."
+  },
+  "customStyles": {
+    "message": "Phong cách của bạn"
+  },
+  "noCustomStyles": {
+    "message": "Chưa có phong cách tự tạo."
+  },
+  "edit": {
+    "message": "Sửa"
+  },
+  "delete": {
+    "message": "Xoá"
+  },
+  "icon": {
+    "message": "Biểu tượng"
+  },
+  "styleNameLabel": {
+    "message": "Tên"
+  },
+  "styleNamePlaceholder": {
+    "message": "ví dụ: Tin tức crypto"
+  },
+  "stylePromptLabel": {
+    "message": "Hướng dẫn cho AI"
+  },
+  "stylePromptHint": {
+    "message": "Mô tả lĩnh vực, giọng văn và các thuật ngữ cần giữ nguyên."
+  },
+  "stylePromptPlaceholder": {
+    "message": "Lĩnh vực: tin tức tiền mã hoá. Giữ nguyên mã token và thuật ngữ tiếng Anh (staking, airdrop)…"
+  },
+  "addStyle": {
+    "message": "Thêm phong cách"
+  },
+  "saveStyle": {
+    "message": "Lưu"
+  },
+  "cancel": {
+    "message": "Huỷ"
+  },
+  "sectionSites": {
+    "message": "Trang web"
+  },
+  "sectionSitesDesc": {
+    "message": "Tự động dịch một số trang, hoặc không bao giờ dịch các trang khác."
+  },
+  "alwaysTranslate": {
+    "message": "Luôn dịch"
+  },
+  "neverTranslate": {
+    "message": "Không bao giờ dịch"
+  },
+  "add": {
+    "message": "Thêm"
+  },
+  "noSites": {
+    "message": "Chưa có trang nào."
+  },
+  "sectionShortcuts": {
+    "message": "Phím tắt"
+  },
+  "sectionShortcutsDesc": {
+    "message": "Phím tắt do trình duyệt quản lý."
+  },
+  "notSet": {
+    "message": "Chưa đặt"
+  },
+  "changeShortcuts": {
+    "message": "Đổi phím tắt"
+  },
+  "sectionPrivacy": {
+    "message": "Quyền riêng tư & dữ liệu"
+  },
+  "sectionPrivacyDesc": {
+    "message": "Dữ liệu nào rời khỏi trình duyệt, và khi nào."
+  },
+  "privacyPoint1": {
+    "message": "Văn bản chỉ được gửi khi bạn yêu cầu dịch, và chỉ tới engine đang dùng (Google, Microsoft, Gemini hoặc endpoint của bạn)."
+  },
+  "privacyPoint2": {
+    "message": "Bản dịch bằng Chrome AI không bao giờ rời khỏi máy."
+  },
+  "privacyPoint3": {
+    "message": "API key chỉ lưu trên máy, không đồng bộ. Bản dịch được lưu đệm trên máy trong 7 ngày."
+  },
+  "clearCache": {
+    "message": "Xoá bộ nhớ đệm bản dịch"
+  },
+  "cacheCleared": {
+    "message": "Đã xoá bộ nhớ đệm"
+  },
+  "saved": {
+    "message": "Đã lưu"
+  }
+}

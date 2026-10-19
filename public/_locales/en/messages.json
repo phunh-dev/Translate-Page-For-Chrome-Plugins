@@ -1,0 +1,419 @@
+{
+  "extName": {
+    "message": "Translate Page – Free Translator for Chromium"
+  },
+  "extShortName": {
+    "message": "Translate Page"
+  },
+  "extDescription": {
+    "message": "Translate whole pages or selected text into 240+ languages for free, with domain styles (tech, medical, news, food…)."
+  },
+  "extTagline": {
+    "message": "Free page & selection translator"
+  },
+  "actionTitle": {
+    "message": "Translate this page"
+  },
+  "cmdTranslatePage": {
+    "message": "Translate page / show original"
+  },
+  "cmdTranslateSelection": {
+    "message": "Translate selected text"
+  },
+  "menuTranslatePage": {
+    "message": "Translate this page / show original"
+  },
+  "menuTranslateSelection": {
+    "message": "Translate selection"
+  },
+  "styleGeneral": {
+    "message": "General"
+  },
+  "styleGeneralDesc": {
+    "message": "Fast literal translation with the free engine. No AI needed."
+  },
+  "styleTechnology": {
+    "message": "Technology"
+  },
+  "styleEngineering": {
+    "message": "Engineering"
+  },
+  "styleScience": {
+    "message": "Science"
+  },
+  "styleMedical": {
+    "message": "Medical"
+  },
+  "styleLegal": {
+    "message": "Legal"
+  },
+  "styleFinance": {
+    "message": "Finance"
+  },
+  "styleJournalism": {
+    "message": "Journalism"
+  },
+  "styleFood": {
+    "message": "Food"
+  },
+  "styleMagazine": {
+    "message": "Magazine"
+  },
+  "styleAcademic": {
+    "message": "Academic"
+  },
+  "styleMarketing": {
+    "message": "Marketing"
+  },
+  "styleGaming": {
+    "message": "Gaming"
+  },
+  "styleLiterature": {
+    "message": "Literature"
+  },
+  "styleCasual": {
+    "message": "Casual"
+  },
+  "targetLanguage": {
+    "message": "Target language"
+  },
+  "translateTo": {
+    "message": "Translate to"
+  },
+  "recentLanguages": {
+    "message": "Recent"
+  },
+  "allLanguages": {
+    "message": "All languages"
+  },
+  "searchLanguage": {
+    "message": "Search languages…"
+  },
+  "noResults": {
+    "message": "No matching language"
+  },
+  "translationStyle": {
+    "message": "Translation style"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "speak": {
+    "message": "Listen"
+  },
+  "detecting": {
+    "message": "Detecting…"
+  },
+  "autoDetect": {
+    "message": "Auto-detected"
+  },
+  "openSettings": {
+    "message": "Settings"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "retry": {
+    "message": "Retry"
+  },
+  "translationFailed": {
+    "message": "Translation failed."
+  },
+  "styleNeedsAi": {
+    "message": "Styles need an AI engine. A literal translation was used instead."
+  },
+  "setupAi": {
+    "message": "Set up a free AI engine"
+  },
+  "statusTranslating": {
+    "message": "Translating… $1%"
+  },
+  "statusTranslated": {
+    "message": "Translated to $1"
+  },
+  "statusOriginal": {
+    "message": "Showing original"
+  },
+  "statusError": {
+    "message": "Translation failed"
+  },
+  "viaProvider": {
+    "message": "via $1"
+  },
+  "styleFallbackShort": {
+    "message": "Style unavailable – literal translation"
+  },
+  "partialError": {
+    "message": "Some parts could not be translated"
+  },
+  "showOriginal": {
+    "message": "Show original"
+  },
+  "showTranslation": {
+    "message": "Show translation"
+  },
+  "bilingualMode": {
+    "message": "Bilingual"
+  },
+  "bilingualModeDesc": {
+    "message": "Show the translation under the original text"
+  },
+  "hideToolbar": {
+    "message": "Hide toolbar"
+  },
+  "translatePage": {
+    "message": "Translate this page"
+  },
+  "translatingPercent": {
+    "message": "Translating… $1%"
+  },
+  "cannotTranslatePage": {
+    "message": "This page can’t be translated (browser or store page)."
+  },
+  "alwaysTranslateSite": {
+    "message": "Always translate $1"
+  },
+  "shortcutPage": {
+    "message": "page"
+  },
+  "shortcutSelection": {
+    "message": "selection"
+  },
+  "sectionGeneral": {
+    "message": "General"
+  },
+  "sectionGeneralDesc": {
+    "message": "Defaults used by the popup, the selection card and shortcuts."
+  },
+  "defaultTargetLanguage": {
+    "message": "Default target language"
+  },
+  "defaultStyle": {
+    "message": "Default translation style"
+  },
+  "displayMode": {
+    "message": "Page display"
+  },
+  "modeReplace": {
+    "message": "Replace"
+  },
+  "modeReplaceDesc": {
+    "message": "Replace the original text with the translation"
+  },
+  "selectionIcon": {
+    "message": "Show translate button on selection"
+  },
+  "selectionIconDesc": {
+    "message": "A small button appears next to selected text."
+  },
+  "skipSameLanguage": {
+    "message": "Skip pages already in my language"
+  },
+  "skipSameLanguageDesc": {
+    "message": "Applies to sites set to “always translate”."
+  },
+  "sectionEngines": {
+    "message": "Translation engines"
+  },
+  "sectionEnginesDesc": {
+    "message": "Everything works for free out of the box. Add a free AI engine to unlock translation styles."
+  },
+  "standardEngine": {
+    "message": "Standard engine (no key needed)"
+  },
+  "standardEngineHint": {
+    "message": "Used for the General style; the other one is the automatic fallback."
+  },
+  "engineGoogleDesc": {
+    "message": "Fast, 240+ languages. Recommended."
+  },
+  "engineBingDesc": {
+    "message": "Microsoft Translator, ~130 languages."
+  },
+  "aiEngine": {
+    "message": "AI engine for styles"
+  },
+  "aiEngineHint": {
+    "message": "Auto tries Chrome AI, then Gemini, then your OpenAI-compatible endpoint."
+  },
+  "aiEngineAuto": {
+    "message": "Auto (recommended)"
+  },
+  "openaiCompatible": {
+    "message": "OpenAI-compatible (Groq, OpenRouter, Ollama…)"
+  },
+  "free": {
+    "message": "Free"
+  },
+  "private": {
+    "message": "On-device"
+  },
+  "freeTier": {
+    "message": "Free tier"
+  },
+  "chromeAiDesc": {
+    "message": "Runs Gemini Nano on your computer: free, private, works offline. Requires a recent Chrome on a supported device; other Chromium browsers show “not supported”."
+  },
+  "aiStatus_available": {
+    "message": "Ready"
+  },
+  "aiStatus_downloadable": {
+    "message": "Needs download"
+  },
+  "aiStatus_downloading": {
+    "message": "Downloading"
+  },
+  "aiStatus_unavailable": {
+    "message": "Unavailable on this device"
+  },
+  "aiStatus_unsupported": {
+    "message": "Not supported by this browser"
+  },
+  "downloadModel": {
+    "message": "Download models (English → $1)"
+  },
+  "downloadingModel": {
+    "message": "Downloading… $1%"
+  },
+  "configured": {
+    "message": "Configured"
+  },
+  "notConfigured": {
+    "message": "Not configured"
+  },
+  "geminiDesc": {
+    "message": "Google AI Studio gives free API keys with a generous daily quota."
+  },
+  "getFreeKey": {
+    "message": "Get a free key"
+  },
+  "apiKey": {
+    "message": "API key"
+  },
+  "apiKeyOptional": {
+    "message": "API key (optional)"
+  },
+  "showHide": {
+    "message": "Show / hide"
+  },
+  "model": {
+    "message": "Model"
+  },
+  "loadModels": {
+    "message": "Load list"
+  },
+  "testConnection": {
+    "message": "Test"
+  },
+  "testing": {
+    "message": "Testing…"
+  },
+  "openaiDesc": {
+    "message": "Any /chat/completions endpoint: Groq and OpenRouter have free models, Ollama and LM Studio run locally."
+  },
+  "baseUrl": {
+    "message": "Base URL"
+  },
+  "sectionStyles": {
+    "message": "Translation styles"
+  },
+  "sectionStylesDesc": {
+    "message": "Each style tells the AI engine how to write for a domain. Click a card to read its guide."
+  },
+  "customStyles": {
+    "message": "Your styles"
+  },
+  "noCustomStyles": {
+    "message": "No custom styles yet."
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "icon": {
+    "message": "Icon"
+  },
+  "styleNameLabel": {
+    "message": "Name"
+  },
+  "styleNamePlaceholder": {
+    "message": "e.g. Crypto news"
+  },
+  "stylePromptLabel": {
+    "message": "Instructions for the AI"
+  },
+  "stylePromptHint": {
+    "message": "Describe the domain, tone and terms to keep."
+  },
+  "stylePromptPlaceholder": {
+    "message": "Domain: cryptocurrency news. Keep token tickers and English jargon (staking, airdrop) as is…"
+  },
+  "addStyle": {
+    "message": "Add style"
+  },
+  "saveStyle": {
+    "message": "Save"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "sectionSites": {
+    "message": "Sites"
+  },
+  "sectionSitesDesc": {
+    "message": "Translate some sites automatically, or never offer to translate others."
+  },
+  "alwaysTranslate": {
+    "message": "Always translate"
+  },
+  "neverTranslate": {
+    "message": "Never translate"
+  },
+  "add": {
+    "message": "Add"
+  },
+  "noSites": {
+    "message": "No sites yet."
+  },
+  "sectionShortcuts": {
+    "message": "Keyboard shortcuts"
+  },
+  "sectionShortcutsDesc": {
+    "message": "Shortcuts are managed by the browser."
+  },
+  "notSet": {
+    "message": "Not set"
+  },
+  "changeShortcuts": {
+    "message": "Change shortcuts"
+  },
+  "sectionPrivacy": {
+    "message": "Privacy & data"
+  },
+  "sectionPrivacyDesc": {
+    "message": "What leaves your browser, and when."
+  },
+  "privacyPoint1": {
+    "message": "Text is sent only when you ask for a translation, and only to the engine in use (Google, Microsoft, Gemini or your endpoint)."
+  },
+  "privacyPoint2": {
+    "message": "Chrome AI translations never leave your device."
+  },
+  "privacyPoint3": {
+    "message": "API keys are stored locally and never synced. Translations are cached on this device for 7 days."
+  },
+  "clearCache": {
+    "message": "Clear translation cache"
+  },
+  "cacheCleared": {
+    "message": "Cache cleared"
+  },
+  "saved": {
+    "message": "Saved"
+  }
+}

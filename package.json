@@ -1,0 +1,43 @@
+{
+  "name": "translate-page-for-chromium",
+  "description": "Free page & selection translator for every Chromium browser, with domain-specific translation styles.",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@10.34.7",
+  "scripts": {
+    "dev": "wxt",
+    "dev:edge": "wxt -b edge",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "wxt build && playwright test",
+    "size": "node scripts/check-size.mjs",
+    "icons": "node scripts/generate-icons.mjs",
+    "locales": "node scripts/locales.mjs",
+    "check": "biome check . && tsc --noEmit && vitest run && wxt build && node scripts/check-size.mjs",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "idb-keyval": "6.3.0",
+    "preact": "10.29.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@playwright/test": "1.64.1",
+    "@preact/preset-vite": "2.10.6",
+    "@tailwindcss/vite": "4.3.3",
+    "happy-dom": "21.0.3",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "vitest": "4.1.12",
+    "wxt": "0.21.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
